@@ -8,7 +8,35 @@ div {
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
-    "top_left header top_right"
+    "top-left header top-right"
     "main main main"
-    "bot_left footer bot_left";
+    "bot-left footer bot-right";
+}
+
+.first-corner {
+    grid-area: top-left;
+}
+
+.white-bar {
+    grid-area: header;
+}
+
+.second-corner {
+    grid-area: top-right;
+}
+
+.page {
+    grid-area: main;
+}
+
+.third-corner {
+    grid-area: bot-left;
+}
+
+.gray-bar {
+    grid-area: footer;
+}
+
+.fourth-corner {
+    grid-area: bot-right;
 }
