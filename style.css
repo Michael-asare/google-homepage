@@ -44,3 +44,7 @@ pre {
 .fourth-corner {
     grid-area: bot-right;
 }
+
+.third-corner, .gray-bar, .fourth-corner {
+    background-color: lightgray;
+}
