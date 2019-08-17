@@ -4,4 +4,11 @@ div {
 
 .grid {
     display: grid;
+    min-height: 100vh;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "top_left header top_right"
+    "main main main"
+    "bot_left footer bot_left";
 }
