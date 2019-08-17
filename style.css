@@ -48,3 +48,7 @@ pre {
 .third-corner, .gray-bar, .fourth-corner {
     background-color: lightgray;
 }
+
+.second-corner, .fourth-corner {
+    text-align: right;
+}
