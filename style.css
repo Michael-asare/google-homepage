@@ -54,3 +54,7 @@ pre {
     text-align: right;
 }
 
+.first-corner, .third-corner {
+    text-align: left;
+}
+
