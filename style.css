@@ -58,7 +58,9 @@ pre {
     text-align: left;
 }
 
-p .button {
-    background-color: lightgray;
+.button {
+    background-color: #f1f1f1;
+    display: inline;
+
 }
 
