@@ -31,6 +31,7 @@ pre {
 
 .page {
     grid-area: main;
+    text-align: center;
 }
 
 .third-corner {
@@ -53,6 +54,3 @@ pre {
     text-align: right;
 }
 
-.main {
-    text-align: center;
-}
